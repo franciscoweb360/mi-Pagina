@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseñador Web | Diseño de páginas</title>
+  <style>
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+header h1 {
+  /* estilos anteriores... */
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+}
+
+.whatsapp-icon img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-icon img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+.formulario {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05); /* opcional para destacar */
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e0a800;
+}
+
+
+  header h1 {
+  font-size: 36px;
+  margin: 0;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+    header {
+      background-color: rgba(0,0,0,0.4);
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(0,0,0,0.2);
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    h2 {
+      color: #ffe600;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 20px;
+      font-size: 18px;
+    }
+
+    ul li::before {
+      content: "✅ ";
+    }
+
+    a {
+      color: #ffe600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+   
+
+.boton-wsp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      width: 45px;
+      height: 45px;
+      background-color: #25D366;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 30px;
+      line-height: 45px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #25D366;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+
+
+    .boton-wsp:hover {
+      background-color: #1eb851;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      background-color: rgba(0,0,0,0.3);
+      font-size: 14px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    blockquote {
+      font-style: italic;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px 20px;
+      border-left: 5px solid #ffe600;
+      margin: 20px 0;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #ffe600;
+      color: #000;
+      font-weight: bold;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ffcc00;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <header>
+    <h1>Francisco Web</h1>
+    <p>Diseño de páginas web para negocios, marcas personales y emprendedores.</p>
+  </header>
+
+  <section>
+    <h2>Qué ofrezco</h2>
+    <ul>
+      <li>Página web profesional (1 a 3 secciones)</li>
+      <li>Catálogo de productos o servicios</li>
+      <li>Formulario de contacto o enlaces a redes</li>
+      <li>Diseño adaptable a celulares</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Precios</h2>
+    <ul>
+      <li><strong>Página básica:</strong> $50.000 COP</li>
+      <li><strong>Página con catálogo y contacto:</strong> $80.000 COP</li>
+      <li><strong>Diseño personalizado completo:</strong> desde $120.000 COP</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>¿Por qué elegirme?</h2>
+    <ul>
+      <li>🚀 Entrega rápida en menos de 3 días</li>
+      <li>📱 Diseño adaptable a celulares</li>
+      <li>🛠 Soporte después de la entrega</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 24px; height: 24px; margin-top: 10px;"> Comunicación directa por WhatsApp</li>
+    </ul>
+  </section>
+
+  
+<section>
+  <h2>Testimonios</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <div style="width: 240px; text-align: center;">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente 1" style="width: 100px; border-radius: 50%;"><br>
+      <blockquote>"Francisco entendió mi idea desde el inicio y me entregó una web perfecta. ¡Muy agradecida!"<br><strong>– Laura P.</strong></blockquote>
+    </div>
+    <div style="width: 240px; text-align: center;">
+      <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Cliente 2" style="width: 100px; border-radius: 50%;"><br>
+      <blockquote>"Trabajo impecable y rápido. Ahora tengo una página que me representa bien."<br><strong>– Carlos M.</strong></blockquote>
+    </div>
+    <div style="width: 240px; text-align: center;">
+      <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Cliente 3" style="width: 100px; border-radius: 50%;"><br>
+      <blockquote>"Me encantó el diseño, muy profesional y fácil de usar."<br><strong>– Andrea G.</strong></blockquote>
+    </div>
+    <div style="width: 240px; text-align: center;">
+      <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="Cliente 4" style="width: 100px; border-radius: 50%;"><br>
+      <blockquote>"Excelente atención, siempre estuvo pendiente de los detalles."<br><strong>– Diego R.</strong></blockquote>
+    </div>
+    <div style="width: 240px; text-align: center;">
+      <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Cliente 5" style="width: 100px; border-radius: 50%;"><br>
+      <blockquote>"Muy buen precio por el resultado final. Lo recomiendo a todos."<br><strong>– Paula S.</strong></blockquote>
+    </div>
+    <div style="width: 240px; text-align: center;">
+      <img src="https://randomuser.me/api/portraits/men/40.jpg" alt="Cliente 6" style="width: 100px; border-radius: 50%;"><br>
+      <blockquote>"Gracias Francisco por ayudarme a poner mi negocio en línea."<br><strong>– Felipe T.</strong></blockquote>
+    </div>
+  </div>
+  </section>
+
+ 
+
+  <section>
+    <h2>Sugerencias</h2>
+    
+   
+
+    <form action="https://formspree.io/f/moqywqne" method="POST">
+      <label>Nombre:</label>
+      <input type="text" name="nombre" required>
+
+      <label>Correo:</label>
+      <input type="email" name="email" required>
+
+      <label>Mensaje:</label>
+      <textarea name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar mensaje</button>
+    </form>
+    
+  </section>
+
+  <footer>
+    <p>© 2025 Francisco Web – Todos los derechos reservados.</p>
+    <p>Correo: <a href="mailto:pachonlauper@gmail.com">pachonlauper@gmail.com</a></p>
+  </footer>
+
+</body>
+
+
+<a href="https://wa.me/573122127485" target="_blank" class="whatsapp-icon">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="40">
+</a>
+
+
+
+</html>
