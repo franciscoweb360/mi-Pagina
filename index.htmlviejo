@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title> Mi Negocio Web</title>
+
+ <style>
+ body {
+font-family: Arial, sans-serif;
+     
+ background-color: #f4f4f4;
+     
+ margin: 0;
+     
+ padding: 0;
+    
+  text-align: center;
+    }
+    
+header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 40px 20px;
+    }
+   
+ h1 {
+      margin: 0;
+    }
+    
+section {
+      padding: 20px;
+    }
+    
+ul {
+      list-style: none;
+      padding: 0;
+    }
+   
+ li {
+      margin: 10px 0;
+    }
+    .whatsapp-button {
+      background-color: #25D366;
+      
+color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+ <h1> Mi Negocio Profesional </h1>
+ <p>Soluciones rápidas y efectivas para tus necesidades</p>
+
+ </header>
+ <section>
+    <h2>Servicios que ofrezco</h2>
+    <ul>
+      <li>Diseño de páginas web</li>
+      <li>Manejo de redes sociales</li>
+      <li>Publicidad digital</li>
+    </ul>
+
+ <a class="whatsapp-button" href="https://wa.me/573122127485" target="_blank">
+      Contáctame por WhatsApp
+    </a>
+  </section>
+
+</body>
+</html>
