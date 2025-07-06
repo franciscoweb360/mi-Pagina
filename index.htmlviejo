@@ -1,77 +1,186 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Solid State por HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title> Mi Negocio Web</title>
-
- <style>
- body {
-font-family: Arial, sans-serif;
-     
- background-color: #f4f4f4;
-     
- margin: 0;
-     
- padding: 0;
-    
-  text-align: center;
-    }
-    
-header {
-      background-color: #4CAF50;
-      color: white;
-      padding: 40px 20px;
-    }
-   
- h1 {
-      margin: 0;
-    }
-    
-section {
-      padding: 20px;
-    }
-    
-ul {
-      list-style: none;
-      padding: 0;
-    }
-   
- li {
-      margin: 10px 0;
-    }
-    .whatsapp-button {
-      background-color: #25D366;
-      
-color: white;
-      padding: 15px 25px;
-      border: none;
-      border-radius: 8px;
-      font-size: 18px;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 20px;
-    }
-  </style>
+	<title>DiseñoWeb.com</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<style>
+		.whatsapp-float {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 25px;
+			right: 25px;
+			background: #25d366;
+			color: #fff;
+			border-radius: 50%;
+			text-align: center;
+			font-size: 32px;
+			line-height: 60px;
+			z-index: 1000;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+			transition: transform .2s ease-in-out;
+		}
+		.whatsapp-float:hover {
+			transform: scale(1.1);
+		}
+		#banner {
+			background:
+				linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+				url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&q=80')
+				center/cover no-repeat;
+			color: white;
+			padding: 6rem 2rem;
+			text-align: center;
+		}
+	</style>
 </head>
-<body>
-
-<header>
- <h1> Mi Negocio Profesional </h1>
- <p>Soluciones rápidas y efectivas para tus necesidades</p>
-
- </header>
- <section>
-    <h2>Servicios que ofrezco</h2>
-    <ul>
-      <li>Diseño de páginas web</li>
-      <li>Manejo de redes sociales</li>
-      <li>Publicidad digital</li>
-    </ul>
-
- <a class="whatsapp-button" href="https://wa.me/573122127485" target="_blank">
-      Contáctame por WhatsApp
-    </a>
-  </section>
-
+<body class="is-preload">
+<a href="https://wa.me/573122127485" class="whatsapp-float" target="_blank" aria-label="Chatear por WhatsApp">
+	<i class="icon brands fa-whatsapp" aria-hidden="true"></i>
+</a>
+<div id="page-wrapper">
+<header id="header" class="alt">
+	<h1><a href="index.html">Diseño Web</a></h1>
+	<nav>
+		<a href="#menu">Menú</a>
+	</nav>
+</header>
+<nav id="menu">
+	<div class="inner">
+		<h2>Menú</h2>
+		<ul class="links">
+			<li><a href="#ofrezco">¿Qué ofrezco?</a></li>
+			<li><a href="#precios">Precios</a></li>
+			<li><a href="#elegirme">¿Por qué elegirme?</a></li>
+			<li><a href="#testimonios">Testimonios</a></li>
+		</ul>
+		<a href="#" class="close">Cerrar</a>
+	</div>
+</nav>
+<section id="banner">
+	<div class="inner">
+		<div class="logo"><span class="icon fa-gem"></span></div>
+		<h2>Diseño web profesional y económico</h2>
+		<p>Diseños modernos, adaptables y rápidos para tu negocio o emprendimiento.</p>
+	</div>
+</section>
+<section id="wrapper">
+	<section id="ofrezco" class="wrapper spotlight style1">
+		<div class="inner">
+			<div class="content">
+				<h2 class="major">¿Qué ofrezco?</h2>
+				<ul>
+					<li>Página web profesional (1 a 3 secciones)</li>
+					<li>Catálogo de productos o servicios</li>
+					<li>Formulario de contacto o enlaces a redes</li>
+					<li>Diseño adaptable a celulares</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="precios" class="wrapper alt spotlight style2">
+		<div class="inner">
+			<div class="content">
+				<h2 class="major">Precios</h2>
+				<ul>
+					<li>Página básica: <strong>$50.000 COP</strong></li>
+					<li>Página con catálogo y contacto: <strong>$80.000 COP</strong></li>
+					<li>Diseño personalizado completo: <strong>desde $120.000 COP</strong></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="elegirme" class="wrapper spotlight style3">
+		<div class="inner">
+			<div class="content">
+				<h2 class="major">¿Por qué elegirme?</h2>
+				<ul>
+					<li>Entrega rápida en menos de 3 días</li>
+					<li> Diseño adaptable a celulares</li>
+					<li> Soporte después de la entrega</li>
+					<li> Comunicación directa por WhatsApp</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="testimonios" class="wrapper alt style1">
+		<div class="inner">
+			<h2 class="major">Testimonios</h2>
+			<div class="features testimonials">
+				<article>
+					<img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Camila R." style="width:80px; border-radius:50%;" />
+					<p>"Muy profesional, quedé feliz con mi sitio. ¡Recomendado!"<br><strong>- Camila R.</strong></p>
+				</article>
+				<article>
+					<img src="https://randomuser.me/api/portraits/men/32.jpg" alt="David M." style="width:80px; border-radius:50%;" />
+					<p>"Excelente servicio y rápido. Todo funcionando perfecto."<br><strong>- David M.</strong></p>
+				</article>
+				<article>
+					<img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Laura G." style="width:80px; border-radius:50%;" />
+					<p>"Diseño perfecto para mi emprendimiento. Gracias!"<br><strong>- Laura G.</strong></p>
+				</article>
+				<article>
+					<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Andrés P." style="width:80px; border-radius:50%;" />
+					<p>"Muy buena atención y soporte incluso después de entregar."<br><strong>- Andrés P.</strong></p>
+				</article>
+				<article>
+					<img src="https://randomuser.me/api/portraits/women/51.jpg" alt="Natalia S." style="width:80px; border-radius:50%;" />
+					<p>"Super cumplido y atento. Mi página quedó genial."<br><strong>- Natalia S.</strong></p>
+				</article>
+			</div>
+		</div>
+	</section>
+</section>
+<section id="footer">
+	<div class="inner">
+		<h2 class="major">Contáctanos</h2>
+		<p>¿Estás listo para tener tu sitio web? ¡Escríbeme y empecemos hoy mismo!</p>
+		<form method="post" action="#">
+			<div class="fields">
+				<div class="field">
+					<label for="name">Nombre</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field">
+					<label for="email">Correo electrónico</label>
+					<input type="email" name="email" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Mensaje</label>
+					<textarea name="message" id="message" rows="4"></textarea>
+				</div>
+			</div>
+			<ul class="actions">
+				<li><input type="submit" value="Enviar mensaje" /></li>
+			</ul>
+		</form>
+		<ul class="contact">
+			<li class="icon solid fa-home">Empresa Ejemplo<br />Calle Ficticia 1234 Oficina #2894<br />Ciudad, País 00000</li>
+			<li class="icon solid fa-phone">(000) 000-0000</li>
+			<li class="icon solid fa-envelope"><a href="#">info@empresa.tld</a></li>
+			<li class="icon brands fa-twitter"><a href="#">twitter.com/empresa</a></li>
+			<li class="icon brands fa-facebook-f"><a href="#">facebook.com/empresa</a></li>
+			<li class="icon brands fa-instagram"><a href="#">instagram.com/empresa</a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; Nota: esta Empresa Es solo un Ejemplo de muestra. Todos los derechos reservados.</li>
+		</ul>
+	</div>
+</section>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
